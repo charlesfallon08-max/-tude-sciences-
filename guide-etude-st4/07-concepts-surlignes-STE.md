@@ -1,121 +1,114 @@
-# 🖍️ Guide d'étude — Concepts surlignés (STE, Juin 2026)
+# 🖍️ Guide d'étude — Concepts SURLIGNÉS (STE, Juin 2026)
 
-> Guide ciblé sur les **concepts prescrits surlignés** du document officiel *Concepts prescrits STE (Juin 2026)*.
-> **STE** = Science et technologie de l'**environnement** (concepts plus avancés que le ST de base).
+> Guide ciblé sur **uniquement les concepts surlignés en jaune** du document officiel *Concepts prescrits STE (Juin 2026)*.
+> **STE** = Science et technologie de l'**environnement**.
 
-> ⚠️ **À vérifier :** l'image était en basse résolution. Voici les concepts surlignés que j'ai identifiés. Si j'en ai oublié ou mal lu, dis-le-moi et je corrige le guide.
+### 📋 Les concepts surlignés (liste vérifiée sur les images)
 
-### 📋 Liste des concepts surlignés repérés
-
-**Univers vivant (écotoxicologie + génétique)**
-- Contaminant • Bioconcentration • Bioaccumulation • Seuil de toxicité
-- Homozygote et hétérozygote
-
-**Univers matériel**
-- Concentration (mol/L) • Force des électrolytes
-- Oxydation / combustion • Sels & neutralisation acido-basique • Décomposition / synthèse
-- Nature de la liaison (covalente / ionique) • Réactions endothermiques / exothermiques
-- Calculs de stœchiométrie • Mole & nombre d'Avogadro
-- Masse atomique relative • Numéro atomique • Isotopes
-- Transformations nucléaires (fission / fusion, radioactivité)
-- Loi de Coulomb • Loi de Kirchhoff
-- Relations énergétiques : travail–force–déplacement • masse–poids • énergie potentielle • énergie cinétique • énergie thermique (Q = mcΔT)
-- Champ magnétique d'un solénoïde
-
-**Terre et espace**
-- Cycle du phosphore • Épuisement des sols • Contamination (eau / air)
-
-**Univers technologique**
-- Projection axonométrique / vue éclatée • Tolérances dimensionnelles
-- Adhérence et frottement • Degré de liberté
-- Résistance équivalente • Détérioration des matériaux
-- Biotechnologie : bioréacteur, biodégradation des polluants
+| Univers | Concepts surlignés |
+|---|---|
+| 🌱 **Vivant** | Contaminant · Bioaccumulation · Réseaux trophiques |
+| ⚗️ **Matériel** | Concentration (mol/L) · Force des électrolytes · Oxydation/combustion · Sels (neutralisation acido-basique) · Stœchiométrie · Nature de la liaison (covalente/ionique) · Réactions endo/exothermiques · Modèle atomique simplifié · Neutron · Règles de nomenclature et d'écriture · Notion de mole · Nombre d'Avogadro · Calculs de stœchiométrie · Masse atomique relative · Numéro atomique · Isotopes · Lois de Kirchhoff · Force efficace · Énergie potentielle · Énergie cinétique · Énergie thermique |
+| 🌍 **Terre et espace** | Capacité tampon du sol |
+| ⚙️ **Technologique** | Détermination de la valeur d'un résistor |
 
 ---
 
 # 🌱 Univers vivant
 
-## Écotoxicologie
+## Contaminant
+Substance **étrangère** introduite dans un milieu qui peut **nuire** à un organisme ou à l'environnement.
+> Exemples : mercure, plomb, pesticides (DDT), BPC.
 
-| Terme | Définition | Truc à retenir |
-|---|---|---|
-| **Contaminant** | Substance étrangère introduite dans un milieu qui peut **nuire** à un organisme ou à l'environnement. | ex. : mercure, pesticides, plomb |
-| **Bioaccumulation** | Accumulation d'un contaminant dans **un organisme** au fil du temps, parce qu'il est **absorbé plus vite qu'éliminé**. | s'accumule **dans le temps** |
-| **Bioconcentration** | Le contaminant se **concentre** dans l'organisme à une concentration **plus élevée que dans le milieu** (absorbé directement de l'eau/l'air). | organisme **>** milieu |
-| **Bioamplification** | La concentration du contaminant **augmente** en montant les **niveaux trophiques** (le prédateur en a plus que sa proie). | ↑ en haut de la chaîne |
-| **Seuil de toxicité** | **Dose ou concentration** à partir de laquelle un contaminant devient **nocif** pour un organisme. | « c'est la dose qui fait le poison » |
+## Bioaccumulation
+**Accumulation** d'un contaminant **dans un organisme** au fil du temps, parce qu'il est **absorbé plus vite qu'éliminé**.
+> Le contaminant s'accumule **dans le temps** (souvent dans les graisses). Plus l'organisme vit longtemps, plus il en accumule.
 
-> 💡 **Exemple classique :** le mercure dans l'eau → bioconcentré par le plancton → bioaccumulé puis bioamplifié jusqu'aux gros poissons → concentration dangereuse au sommet de la chaîne.
+## Réseaux trophiques
+Ensemble des **chaînes alimentaires interconnectées** d'un écosystème (qui mange qui).
 
-## Génétique
+| Niveau | Rôle |
+|---|---|
+| **Producteurs** | plantes (photosynthèse) |
+| **Consommateurs primaires** | herbivores |
+| **Consommateurs secondaires/tertiaires** | carnivores |
+| **Décomposeurs** | recyclent la matière morte |
 
-| Génotype | Nom | Description |
-|---|---|---|
-| **BB** ou **bb** | **Homozygote** | les deux allèles sont **identiques** (homo = pareil) |
-| **Bb** | **Hétérozygote** | les deux allèles sont **différents** (hétéro = différent) |
-
-> Un homozygote peut être **dominant** (BB) ou **récessif** (bb). L'hétérozygote (Bb) exprime le caractère **dominant**.
+- L'**énergie** circule des producteurs vers les consommateurs : seulement **~10 %** passe d'un niveau au suivant (le reste est perdu en chaleur).
+- 💡 Lien avec la bioaccumulation : un contaminant se **concentre** en montant dans le réseau trophique (les prédateurs en haut en reçoivent le plus).
 
 ---
 
 # ⚗️ Univers matériel
 
 ## 1. Concentration molaire (mol/L)
-
 $$C = \dfrac{n}{V}$$
-- **C** = concentration (mol/L, aussi noté **M**)
-- **n** = quantité de matière (**moles**)
-- **V** = volume de la solution (**L**)
-
-> Pour trouver n à partir d'une masse : $n = \dfrac{m}{M}$ (masse ÷ masse molaire).
+- **C** = concentration (mol/L) · **n** = quantité de matière (moles) · **V** = volume (L)
+- Pour passer d'une masse aux moles : $n = \dfrac{m}{M}$ (M = masse molaire en g/mol).
 
 **Exemple :** 2 mol de NaCl dans 4 L → C = 2 ÷ 4 = **0,5 mol/L**.
 
 ## 2. Force des électrolytes
-
 | Type | Dissociation | Conduit le courant | Exemple |
 |---|---|---|---|
 | **Électrolyte fort** | **complète** | très bien | HCl, NaOH, NaCl |
 | **Électrolyte faible** | **partielle** | un peu | acide acétique (vinaigre) |
 | **Non-électrolyte** | aucune | pas du tout | sucre, alcool |
 
-> Plus un électrolyte se dissocie en ions, plus il **conduit** l'électricité.
+## 3. Les types de réactions chimiques
 
-## 3. La nature de la liaison
+### Oxydation et combustion
+- **Oxydation** : réaction d'une substance avec l'**oxygène**. Ex. : rouille (4 Fe + 3 O₂ → 2 Fe₂O₃).
+- **Combustion** : oxydation **rapide** qui dégage **chaleur et lumière**. Ex. : CH₄ + 2 O₂ → CO₂ + 2 H₂O.
+- **Triangle du feu** : combustible + comburant (O₂) + source de chaleur.
 
+### Décomposition et synthèse
+- **Synthèse** : A + B → AB (on **assemble**). Ex. : 2 H₂ + O₂ → 2 H₂O.
+- **Décomposition** : AB → A + B (on **sépare**). Ex. : 2 H₂O → 2 H₂ + O₂.
+
+### Sels et neutralisation acido-basique
+- **acide + base → sel + eau**
+- Ex. : HCl + NaOH → **NaCl** (le sel) + H₂O.
+- Le **sel** est le composé ionique formé lors d'une **neutralisation**.
+
+## 4. La nature de la liaison
 | Liaison | Entre… | Mécanisme | Exemple |
 |---|---|---|---|
-| **Ionique** | un **métal** + un **non-métal** | **transfert** d'électrons (forme des ions) | NaCl, MgO |
-| **Covalente** | deux **non-métaux** | **partage** d'électrons | H₂O, CO₂, O₂ |
-
-> Truc : métal + non-métal = ionique ; non-métal + non-métal = covalente.
-
-## 4. Les types de réactions chimiques
-
-| Réaction | Forme générale | Exemple |
-|---|---|---|
-| **Synthèse** | A + B → AB | 2 H₂ + O₂ → 2 H₂O |
-| **Décomposition** | AB → A + B | 2 H₂O → 2 H₂ + O₂ |
-| **Oxydation** | substance + O₂ → oxyde | 4 Fe + 3 O₂ → 2 Fe₂O₃ (rouille) |
-| **Combustion** | combustible + O₂ → CO₂ + H₂O (+ chaleur/lumière) | CH₄ + 2 O₂ → CO₂ + 2 H₂O |
-| **Neutralisation acido-basique** | **acide + base → sel + eau** | HCl + NaOH → **NaCl** + H₂O |
-
-> **Combustion** = oxydation **rapide** qui dégage chaleur + lumière. Triangle du feu : **combustible + comburant (O₂) + source de chaleur**.
-> Un **sel** est le produit (en plus de l'eau) d'une **neutralisation**.
+| **Ionique** | **métal + non-métal** | **transfert** d'électrons (ions) | NaCl, MgO |
+| **Covalente** | **non-métal + non-métal** | **partage** d'électrons | H₂O, CO₂ |
 
 ## 5. Réactions endothermiques et exothermiques
-
 | | **Exothermique** | **Endothermique** |
 |---|---|---|
 | Énergie | **dégage** de l'énergie | **absorbe** de l'énergie |
 | Milieu | se **réchauffe** | se **refroidit** |
-| Énergie des produits | **plus basse** que les réactifs | **plus haute** que les réactifs |
 | Exemple | combustion, respiration | photosynthèse, cuisson |
 
-## 6. La mole et le nombre d'Avogadro
+## 6. Le modèle atomique simplifié
+Représente l'atome avec :
+- un **noyau** central contenant les **protons** (+) et les **neutrons** (neutres) ;
+- les **électrons** (−) répartis sur des **couches** : **2 – 8 – 8** (pour les 18 premiers éléments).
 
-- **1 mole = 6,022 × 10²³ entités** (atomes, molécules, ions) → c'est le **nombre d'Avogadro (Nₐ)**.
-- **Masse molaire (M)** : masse d'une mole, en **g/mol** (= la masse atomique du tableau périodique).
+> Exemple : le sodium (Na, Z = 11) → couches 2, 8, 1.
+
+## 7. Le neutron
+- Particule du **noyau**, de charge **neutre (0)** et de masse ≈ **1 u**.
+- Nombre de neutrons = **nombre de masse (A) − numéro atomique (Z)**.
+
+## 8. Règles de nomenclature et d'écriture
+> Comment **nommer** et **écrire** la formule des composés chimiques.
+
+- **Composé ionique** : on écrit le **cation (+) en premier**, puis l'**anion (−)**, et on **équilibre les charges** (méthode du croisement / criss-cross).
+  - Ex. : Ca²⁺ et Cl⁻ → **CaCl₂**.
+- **Nommer un composé binaire** : nom de l'anion (en *-ure*) + « de » + nom du cation.
+  - Ex. : NaCl = chlor**ure** de sodium.
+- Les **indices** indiquent le nombre d'atomes ; les **ions polyatomiques** gardent leur groupe entre parenthèses si nécessaire.
+
+## 9. La mole, le nombre d'Avogadro et la stœchiométrie
+
+### Mole et nombre d'Avogadro
+- **1 mole = 6,022 × 10²³ entités** (= nombre d'Avogadro, **Nₐ**).
+- **Masse molaire (M)** : masse d'une mole, en **g/mol** (lue dans le tableau périodique).
 
 | Pour trouver… | Formule |
 |---|---|
@@ -123,216 +116,183 @@ $$C = \dfrac{n}{V}$$
 | nombre d'entités | $N = n \times N_A$ |
 | masse | $m = n \times M$ |
 
-**Exemple :** combien de moles dans 36 g d'eau (M = 18 g/mol) ? → n = 36 ÷ 18 = **2 mol** → soit 2 × 6,022×10²³ = **1,2 × 10²⁴ molécules**.
+**Exemple :** 36 g d'eau (M = 18 g/mol) → n = 36 ÷ 18 = **2 mol** = 1,2 × 10²⁴ molécules.
 
-## 7. Les calculs de stœchiométrie
+### Calculs de stœchiométrie
+Utiliser les **coefficients** d'une équation **balancée** pour calculer des quantités.
+1. **Balancer** l'équation.
+2. Convertir la donnée en **moles**.
+3. Appliquer le **rapport molaire** (coefficients).
+4. Reconvertir en masse au besoin.
 
-> La stœchiométrie utilise les **coefficients** d'une équation **balancée** pour calculer les quantités de réactifs/produits.
+**Exemple :** `2 H₂ + O₂ → 2 H₂O`. Avec 4 mol de H₂, on produit (rapport 2:2 = 1:1) **4 mol d'eau**.
 
-**Méthode en 4 étapes :**
-1. **Balancer** l'équation chimique.
-2. Convertir la donnée en **moles** ($n = m/M$).
-3. Utiliser le **rapport molaire** (les coefficients) pour trouver les moles de l'autre substance.
-4. Reconvertir en masse si nécessaire ($m = n \times M$).
-
-**Exemple :** Dans `2 H₂ + O₂ → 2 H₂O`, combien de moles d'eau produit-on avec 4 mol de H₂ ?
-→ rapport H₂:H₂O = 2:2 = 1:1 → **4 mol d'eau**.
-
-## 8. Numéro atomique, masse atomique relative et isotopes
-
+## 10. Numéro atomique, masse atomique relative et isotopes
 | Terme | Définition |
 |---|---|
-| **Numéro atomique (Z)** | nombre de **protons** (= électrons si neutre). Identifie l'élément. |
-| **Nombre de masse (A)** | protons **+** neutrons. |
-| **Isotopes** | atomes d'un **même élément** (même Z) ayant un **nombre de neutrons différent** (donc A différent). |
-| **Masse atomique relative** | **moyenne pondérée** des masses des isotopes d'un élément (selon leur abondance). C'est pour ça qu'elle est décimale dans le tableau. |
+| **Numéro atomique (Z)** | nombre de **protons** (identifie l'élément) |
+| **Isotopes** | atomes d'un **même élément** (même Z) avec un **nombre de neutrons différent** |
+| **Masse atomique relative** | **moyenne pondérée** des masses des isotopes (selon leur abondance) → explique les valeurs décimales du tableau |
 
-> Exemple : le carbone-12 et le carbone-14 sont des **isotopes** (6 protons chacun, mais 6 vs 8 neutrons).
+> Ex. : carbone-12 et carbone-14 = isotopes (6 protons, mais 6 vs 8 neutrons).
 
-## 9. Les transformations nucléaires
-
-| Transformation | Description | Énergie |
-|---|---|---|
-| **Fission** | un **gros** noyau se **brise** en plus petits | énorme (centrale nucléaire) |
-| **Fusion** | des **petits** noyaux **s'unissent** | énorme (le Soleil) |
-| **Radioactivité** | un noyau **instable** émet des particules/rayons | — |
-
-**Types de radiation :** alpha (α), bêta (β), gamma (γ). La **demi-vie** = temps pour que la moitié d'un échantillon radioactif se désintègre.
-
-## 10. La loi de Coulomb (force électrique)
-
-$$F = \dfrac{k \, q_1 \, q_2}{r^2}$$
-- Décrit la **force** entre deux charges électriques.
-- Plus les charges (**q**) sont **grandes**, plus la force est grande.
-- Plus la distance (**r**) est **grande**, plus la force **diminue** (au carré).
-- Charges de **même signe** → répulsion ; signes **opposés** → attraction.
-
-## 11. La loi de Kirchhoff
-
+## 11. Les lois de Kirchhoff
 | Loi | Énoncé |
 |---|---|
-| **Loi des nœuds (courants)** | La somme des courants qui **entrent** dans un nœud = somme des courants qui en **sortent**. |
-| **Loi des mailles (tensions)** | Dans une boucle fermée, la somme des **tensions** = la tension de la source (la somme algébrique = 0). |
+| **Loi des nœuds (courants)** | À une jonction, la somme des courants **entrants** = somme des courants **sortants**. |
+| **Loi des mailles (tensions)** | Dans une boucle fermée, la somme des **tensions** = la tension fournie par la source. |
 
-> En clair : le courant se **conserve** à une jonction, et la tension se **répartit** dans une boucle.
+> En série : le **courant** est le même partout. En parallèle : la **tension** est la même partout.
 
-## 12. Les relations énergétiques (mécanique)
+## 12. La force efficace
+- C'est la **composante de la force** qui agit **dans la direction du déplacement**.
+- Seule cette composante **effectue un travail**.
+$$W = F_{efficace} \times \Delta d$$
+- Si la force est **parallèle** au déplacement → force efficace = force totale.
+- Si la force est à un **angle θ** → $F_{efficace} = F \times \cos\theta$.
 
-| Concept | Formule | Unités |
+## 13. Les relations d'énergie
+| Énergie | Formule | Variables |
 |---|---|---|
-| **Travail** (force × déplacement) | $W = F \times \Delta d$ | J = N × m |
-| **Poids** (relation masse–poids) | $F_g = m \times g$ ($g$ ≈ 9,8 N/kg) | N |
-| **Énergie potentielle** gravitationnelle | $E_p = m \times g \times \Delta h$ | J |
-| **Énergie cinétique** | $E_k = \dfrac{1}{2} m v^2$ | J |
-| **Énergie thermique** | $Q = m \, c \, \Delta T$ | J |
+| **Énergie potentielle** (gravitationnelle) | $E_p = m \, g \, \Delta h$ | g ≈ 9,8 N/kg |
+| **Énergie cinétique** | $E_k = \dfrac{1}{2} m v^2$ | m (kg), v (m/s) |
+| **Énergie thermique** | $Q = m \, c \, \Delta T$ | c = capacité thermique massique |
 
-- **c** = capacité thermique massique (pour l'eau : **4,19 J/(g·°C)**).
-- **ΔT** = T finale − T initiale.
+- **Énergie potentielle** : liée à la **position/hauteur** d'un objet.
+- **Énergie cinétique** : liée à la **vitesse** d'un objet en mouvement.
+- **Énergie thermique** : pour l'eau, **c = 4,19 J/(g·°C)** ; ΔT = T finale − T initiale.
 
 **Exemple (Q = mcΔT) :** chauffer 200 g d'eau de 20 °C à 30 °C →
-Q = 200 × 4,19 × (30−20) = **8 380 J**.
-
-## 13. Le champ magnétique d'un solénoïde
-
-- Un **solénoïde** = bobine de fil. Parcouru par un **courant**, il crée un **champ magnétique** comme un aimant (pôle N et S).
-- On **augmente** sa force en : ↑ le **nombre de spires**, ↑ l'**intensité** du courant, ajoutant un **noyau de fer** (électroaimant).
-- **Règle de la main droite** : les doigts suivent le courant, le pouce pointe vers le pôle Nord.
+Q = 200 × 4,19 × 10 = **8 380 J**.
 
 ---
 
 # 🌍 Terre et espace
 
-## Le cycle du phosphore
-- Contrairement au carbone/azote, **pas de phase gazeuse** importante (le phosphore ne circule pas dans l'air).
-- Parcours : **roches** → érosion → **sol/eau** → absorbé par les **plantes** → **animaux** → **décomposeurs** → retour au sol.
-- Essentiel à l'**ADN**, l'**ATP** et les **os**.
-- Un **excès** de phosphore (engrais, détergents) dans l'eau → **eutrophisation** (prolifération d'algues).
-
-## L'épuisement des sols
-- Perte de **nutriments** et de **fertilité** causée par l'agriculture intensive, la **monoculture** et l'érosion.
-- Solutions : **rotation des cultures**, **jachère**, engrais, couverture végétale.
-
-## La contamination
-- **De l'eau (hydrosphère)** : rejets industriels, pesticides, engrais → **eutrophisation**, métaux lourds.
-- **De l'air (atmosphère)** : smog, **pluies acides**, gaz à effet de serre, particules fines.
+## Capacité tampon du sol
+- Capacité d'un sol à **résister aux variations de pH** (à **neutraliser** les acides ou les bases ajoutés).
+- Un sol avec une **bonne capacité tampon** résiste à l'**acidification** (ex. : protège contre les **pluies acides**).
+- Elle dépend de la présence de **carbonates**, d'**argile** et de **matière organique** dans le sol.
+- 💡 Un sol qui perd sa capacité tampon s'acidifie → nuit aux plantes et aux organismes.
 
 ---
 
 # ⚙️ Univers technologique
 
-## Langage des lignes
-- **Projection axonométrique** : représentation en **3D** (perspective). L'**isométrique** en est un type (axes à 120°).
-- **Vue éclatée** : montre les pièces **séparées**, alignées dans l'**ordre d'assemblage** (comme une notice de meuble).
-- **Tolérances dimensionnelles** : **écart acceptable** entre la dimension maximale et minimale d'une pièce. Ex. : `50 ± 0,5 mm` → entre 49,5 et 50,5 mm.
+## Détermination de la valeur d'un résistor
+La valeur (en **ohms, Ω**) d'un résistor se lit grâce à ses **bandes de couleur**.
+- **1re et 2e bandes** = les deux premiers **chiffres**.
+- **3e bande** = le **multiplicateur** (nombre de zéros / puissance de 10).
+- **4e bande** = la **tolérance** (précision, ex. or = ±5 %).
 
-## Ingénierie mécanique
-- **Adhérence et frottement** : résistance au **glissement** entre deux surfaces en contact. Le frottement peut être **utile** (freins, marcher) ou **nuisible** (usure, perte d'énergie en chaleur).
-- **Degré de liberté** : nombre de **mouvements indépendants** possibles d'une pièce. Au maximum **6** (3 translations + 3 rotations). Une **liaison complète** = **0** degré de liberté.
+| Couleur | Chiffre | Multiplicateur |
+|---|---|---|
+| Noir | 0 | ×1 |
+| Brun | 1 | ×10 |
+| Rouge | 2 | ×100 |
+| Orange | 3 | ×1 000 |
+| Jaune | 4 | ×10 000 |
+| Vert | 5 | ×100 000 |
+| Bleu | 6 | ×1 000 000 |
+| Violet | 7 | — |
+| Gris | 8 | — |
+| Blanc | 9 | — |
 
-## Ingénierie électrique
-- **Résistance équivalente** :
-  - **En série** : $R_{éq} = R_1 + R_2 + \dots$ (augmente)
-  - **En parallèle** : $\dfrac{1}{R_{éq}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dots$ (diminue)
-
-## Matériaux
-- **Détérioration (dégradation)** : altération d'un matériau dans le temps — **corrosion** (rouille), usure, fissuration, pourriture. On la combat par la **protection** (peinture, galvanisation, vernis).
-
-## Biotechnologie
-- **Bioréacteur** : cuve **contrôlée** (température, pH, O₂) où on cultive des **micro-organismes** pour produire une substance (médicament, aliment, biocarburant).
-- **Biodégradation des polluants** (bioremédiation) : utiliser des **organismes vivants** (bactéries, champignons) pour **décomposer** des contaminants dans l'environnement.
+**Exemple :** bandes Rouge–Violet–Orange → 2, 7, ×1 000 = **27 000 Ω** (27 kΩ).
+> On peut aussi mesurer la valeur directement avec un **ohmmètre**.
 
 ---
 
 # 🧪 Quiz — Concepts surlignés (STE)
 
-**1.** L'accumulation d'un contaminant **dans un organisme au fil du temps** s'appelle :
-- a) bioconcentration   b) bioaccumulation   c) bioamplification   d) eutrophisation
+**1.** Une substance étrangère qui peut nuire à un organisme est un :
+- a) électrolyte   b) contaminant   c) isotope   d) sel
 
-**2.** Quelle concentration molaire pour 3 mol de soluté dans 6 L de solution ?
-- a) 2 mol/L   b) 0,5 mol/L   c) 18 mol/L   d) 9 mol/L
+**2.** L'accumulation d'un contaminant **dans un organisme au fil du temps** est la :
+- a) bioconcentration   b) bioaccumulation   c) neutralisation   d) combustion
 
-**3.** Une liaison entre un **métal et un non-métal** est :
-- a) covalente   b) ionique   c) métallique   d) nucléaire
+**3.** Dans un réseau trophique, quelle proportion d'énergie passe à peu près d'un niveau au suivant ?
+- a) 1 %   b) 10 %   c) 50 %   d) 90 %
 
-**4.** Un **électrolyte fort** se caractérise par une dissociation :
+**4.** Quelle est la concentration de 3 mol de soluté dans 6 L de solution ?
+- a) 0,5 mol/L   b) 2 mol/L   c) 9 mol/L   d) 18 mol/L
+
+**5.** Un **électrolyte fort** se dissocie de façon :
 - a) nulle   b) partielle   c) complète   d) lente
 
-**5.** La réaction `HCl + NaOH → NaCl + H₂O` est une :
+**6.** La réaction `HCl + NaOH → NaCl + H₂O` est une :
 - a) combustion   b) synthèse   c) neutralisation acido-basique   d) décomposition
 
-**6.** Combien d'entités dans 2 moles d'une substance ?
-- a) 6,022 × 10²³   b) 1,2 × 10²⁴   c) 3,01 × 10²³   d) 2
+**7.** Une liaison entre un **métal et un non-métal** est :
+- a) covalente   b) ionique   c) nucléaire   d) métallique
 
-**7.** Des **isotopes** d'un même élément ont un nombre différent de :
-- a) protons   b) électrons   c) neutrons   d) charges
+**8.** Une réaction **exothermique** :
+- a) absorbe de l'énergie   b) refroidit le milieu   c) dégage de l'énergie   d) ne libère rien
 
-**8.** Le numéro atomique (Z) correspond au nombre de :
+**9.** Le **neutron** porte une charge :
+- a) positive   b) négative   c) neutre   d) variable
+
+**10.** Le **numéro atomique** correspond au nombre de :
 - a) neutrons   b) protons   c) électrons de valence   d) couches
 
-**9.** Quelle énergie se calcule avec $E_k = \frac{1}{2}mv^2$ ?
-- a) potentielle   b) thermique   c) cinétique   d) électrique
+**11.** Des **isotopes** d'un même élément diffèrent par leur nombre de :
+- a) protons   b) électrons   c) neutrons   d) charges
 
-**10.** Pour chauffer de l'eau, on utilise la formule :
-- a) U = RI   b) Q = mcΔT   c) F = kq₁q₂/r²   d) Ep = mgΔh
+**12.** Combien d'entités contient 2 moles d'une substance ?
+- a) 6,022 × 10²³   b) 1,2 × 10²⁴   c) 2   d) 3,01 × 10²³
 
-**11.** Dans une transformation **nucléaire** où un gros noyau se brise, on parle de :
-- a) fusion   b) fission   c) combustion   d) oxydation
+**13.** Dans `2 H₂ + O₂ → 2 H₂O`, combien de moles d'eau obtient-on avec 4 mol de H₂ ?
+- a) 2   b) 4   c) 8   d) 1
 
-**12.** La force entre deux charges électriques est décrite par la loi de :
-- a) Ohm   b) Kirchhoff   c) Coulomb   d) Newton
+**14.** La **loi des nœuds** de Kirchhoff concerne la conservation :
+- a) de la tension   b) du courant   c) de la résistance   d) de la masse
 
-**13.** Un génotype **Bb** est dit :
-- a) homozygote dominant   b) homozygote récessif   c) hétérozygote   d) récessif
+**15.** La **force efficace** est la composante de la force qui agit :
+- a) perpendiculairement au déplacement   b) dans la direction du déplacement   c) vers le haut   d) contre la gravité
 
-**14.** Le **cycle du phosphore** se distingue parce qu'il :
-- a) a une grande phase gazeuse   b) n'a pas de phase gazeuse importante   c) ne passe pas par le sol   d) n'implique pas les vivants
+**16.** Quelle formule donne l'**énergie cinétique** ?
+- a) Ep = mgΔh   b) Q = mcΔT   c) Ek = ½mv²   d) W = FΔd
 
-**15.** Une **vue éclatée** sert à montrer :
-- a) l'intérieur en coupe   b) les pièces séparées dans l'ordre d'assemblage   c) les cotes   d) le développement
+**17.** Pour chauffer de l'eau, on utilise :
+- a) U = RI   b) Q = mcΔT   c) Ek = ½mv²   d) F = ma
 
-**16.** Le **degré de liberté** maximal d'une pièce dans l'espace est de :
-- a) 2   b) 3   c) 6   d) 12
+**18.** La **capacité tampon du sol** est sa capacité à :
+- a) retenir l'eau   b) résister aux variations de pH   c) produire des nutriments   d) absorber la lumière
 
-**17.** Deux résistances **en série** de 4 Ω et 6 Ω donnent une résistance équivalente de :
-- a) 2,4 Ω   b) 10 Ω   c) 5 Ω   d) 24 Ω
+**19.** Sur un résistor, la **3e bande de couleur** indique :
+- a) la tolérance   b) le premier chiffre   c) le multiplicateur   d) le matériau
 
-**18.** Utiliser des bactéries pour décomposer un polluant s'appelle :
-- a) eutrophisation   b) biodégradation   c) bioconcentration   d) fission
-
-**19.** Une réaction **exothermique** :
-- a) absorbe de l'énergie   b) refroidit le milieu   c) dégage de l'énergie   d) est endothermique
-
-**20.** La force d'un **solénoïde** augmente si l'on :
-- a) diminue le courant   b) enlève le noyau de fer   c) augmente le nombre de spires   d) raccourcit le fil
+**20.** Un résistor avec les bandes Rouge–Violet–Orange a une valeur de :
+- a) 270 Ω   b) 2 700 Ω   c) 27 000 Ω   d) 270 000 Ω
 
 ---
 
 ### ✅ Corrigé
 | # | Rép. | Explication |
 |---|---|---|
-| 1 | **b** | Bioaccumulation = dans le temps, dans l'organisme |
-| 2 | **b** | C = 3 ÷ 6 = 0,5 mol/L |
-| 3 | **b** | Métal + non-métal = liaison ionique |
-| 4 | **c** | Électrolyte fort = dissociation complète |
-| 5 | **c** | Acide + base → sel + eau |
-| 6 | **b** | 2 × 6,022×10²³ = 1,2×10²⁴ |
-| 7 | **c** | Isotopes = neutrons différents |
-| 8 | **b** | Z = nombre de protons |
-| 9 | **c** | Énergie cinétique |
-| 10 | **b** | Q = mcΔT (énergie thermique) |
-| 11 | **b** | Fission = noyau se brise |
-| 12 | **c** | Loi de Coulomb |
-| 13 | **c** | Deux allèles différents = hétérozygote |
-| 14 | **b** | Pas de phase gazeuse importante |
-| 15 | **b** | Pièces séparées, ordre d'assemblage |
-| 16 | **c** | 6 (3 translations + 3 rotations) |
-| 17 | **b** | Série : 4 + 6 = 10 Ω |
-| 18 | **b** | Biodégradation / bioremédiation |
-| 19 | **c** | Exothermique = dégage de l'énergie |
-| 20 | **c** | Plus de spires = champ plus fort |
+| 1 | **b** | Contaminant |
+| 2 | **b** | Bioaccumulation = dans le temps |
+| 3 | **b** | Règle du ~10 % |
+| 4 | **a** | C = 3 ÷ 6 = 0,5 mol/L |
+| 5 | **c** | Électrolyte fort = dissociation complète |
+| 6 | **c** | Acide + base → sel + eau |
+| 7 | **b** | Métal + non-métal = ionique |
+| 8 | **c** | Exothermique = dégage de l'énergie |
+| 9 | **c** | Le neutron est neutre |
+| 10 | **b** | Z = nombre de protons |
+| 11 | **c** | Isotopes = neutrons différents |
+| 12 | **b** | 2 × 6,022×10²³ = 1,2×10²⁴ |
+| 13 | **b** | Rapport 2:2 = 1:1 → 4 mol |
+| 14 | **b** | Loi des nœuds = courant |
+| 15 | **b** | Composante dans la direction du déplacement |
+| 16 | **c** | Ek = ½mv² |
+| 17 | **b** | Q = mcΔT (énergie thermique) |
+| 18 | **b** | Résiste aux variations de pH |
+| 19 | **c** | 3e bande = multiplicateur |
+| 20 | **c** | 2,7,×1000 = 27 000 Ω |
 
 ---
 
 🏠 [Retour à l'accueil](../README.md) · 📐 [Aide-mémoire des formules](06-formules-et-aide-memoire.md)
 
-> 🍀 Concentre-toi sur ces concepts surlignés en priorité — ce sont ceux ciblés pour juin 2026 !
+> 🍀 Ce sont **exactement** les concepts surlignés pour juin 2026 — concentre ton étude ici !
