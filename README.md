@@ -22,6 +22,7 @@ Basé sur le *Document d'information – Épreuves ministérielles, 4e année du
 | [`guide-etude-st4/04-univers-technologique.md`](guide-etude-st4/04-univers-technologique.md) | Langage des lignes, mécanique, électrique, matériaux |
 | [`guide-etude-st4/05-examen-blanc.md`](guide-etude-st4/05-examen-blanc.md) | Examen blanc complet (style ministère) + corrigé |
 | [`guide-etude-st4/06-formules-et-aide-memoire.md`](guide-etude-st4/06-formules-et-aide-memoire.md) | Toutes les formules + aide-mémoire express |
+| ⭐ [`guide-etude-st4/07-concepts-surlignes-STE.md`](guide-etude-st4/07-concepts-surlignes-STE.md) | **Concepts surlignés prioritaires (STE, Juin 2026)** + quiz |
 
 ---
 
